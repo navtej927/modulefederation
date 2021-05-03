@@ -18,22 +18,27 @@
     "url": "git+https://github.com/navtej927/modulefederation.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "webpack serve --mode development",
+    "build": "rm -rf dist && webpack --mode production"
   },
   "bugs": {
     "url": "https://github.com/navtej927/modulefederation/issues"
   },
   "dependencies": {
-    "babel-loader": "^8.2.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "serve": "^11.3.2",
-    "webpack": "^5.36.2"
+    "serve": "^11.3.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.0",
-    "@babel/preset-react": "^7.13.13"
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

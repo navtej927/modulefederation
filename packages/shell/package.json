@@ -1,11 +1,11 @@
 {
-  "name": "about",
+  "name": "shell",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "navtej927 <navtej927@gmail.com>",
   "homepage": "https://github.com/navtej927/modulefederation#readme",
   "license": "ISC",
-  "main": "lib/about.js",
+  "main": "lib/home.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -28,9 +28,11 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
     "serve": "^11.3.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.13.16",
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.0",
     "@babel/preset-react": "^7.13.13",
